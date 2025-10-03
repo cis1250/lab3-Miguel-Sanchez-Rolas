@@ -21,7 +21,7 @@ while user_input < 0:
 num = 0
 num_one = 1
 num_two = 0
-temp
+temp = 0
 
 
 for num in range(user_input):
