@@ -3,8 +3,8 @@
 # Fibonacci Sequence Exercise
 # TODO: (Read detailed instructions in the Readme file)
 # Prompt the user for the number of terms.
-print('User input: ')
-user_input = input()
+
+user_input = input('User input: ')
 
 
 
@@ -12,8 +12,7 @@ user_input = input()
 
 while user_input < 0:
   print('Expected output: Please enter a positive integer.')
-  print('User input: ')
-  user_input = input()
+  user_input = input('User input: ')
 
 
 # Use a for loop to print the Fibonacci sequence up to that many terms.
