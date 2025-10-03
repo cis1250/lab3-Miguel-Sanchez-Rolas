@@ -15,7 +15,7 @@ while not user_input.isdigit() or int(user_input) < 0:
   print('User input: ')
   user_input = input()
 
-
+user_input = (int)user_input
 # Use a for loop to print the Fibonacci sequence up to that many terms.
 
 num = 0
