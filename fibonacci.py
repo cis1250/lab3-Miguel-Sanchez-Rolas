@@ -10,7 +10,7 @@ user_input = input()
 
 # Validate that the input is a positive integer.
 
-while user_input < 0:
+while not user_input.isdigit() or int(user_input) < 0:
   print('Expected output: Please enter a positive integer.')
   print('User input: ')
   user_input = input()
