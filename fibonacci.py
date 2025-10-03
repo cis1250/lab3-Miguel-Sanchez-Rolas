@@ -24,7 +24,7 @@ num_two = 0
 temp
 
 
-for num in user_input:
+for num in range(user_input):
   print(num)
   num = num_one + num_two
   temp = num_one
